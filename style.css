@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10rem;
+    background-color: #1E90FF;
+    text-align: center;
+}
+
+.game {
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    height: 190px;
+    width: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: #fffc7f;
+    color: red;
+}
+
+#resetButton {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+#X {
+    margin-top: 5px;
+    padding: 0.4rem;
+}
+
+#O {
+    margin-top: 5px;
+    padding: 0.4rem;
+}
+
+.question2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+}
+
+#winr {
+    font-size: 2rem;
+}
+
+.hide {
+    display: none;
+}
